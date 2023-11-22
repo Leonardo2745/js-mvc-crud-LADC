@@ -41,10 +41,12 @@ const addUser = (newUser) => {
 //ATUALIZAR USUARIO SELECIONADO
 const updateUser = (index, userToUpdate) => {
   data[index] = userToUpdate;
+  dataService.salvarDados(data);
 };
 //DELETAR USUÁRIO SELECIONADO
 const deletUser = (index) => {
   data.splice(index, 1);
+  dataService.salvarDados(data);
 };
 //AÇÃO PARA BOTÃO ESQUERDO
 const clickEsquerdo = (event) => {

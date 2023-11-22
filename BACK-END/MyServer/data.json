@@ -5,7 +5,6 @@
     "login": "leozin12",
     "senha": "707070"
   },
-
   {
     "nome": "Bernadete",
     "idade": "56",
@@ -18,19 +17,10 @@
     "login": "roberts99",
     "senha": "1111"
   },
-  
-
-  
   {
     "nome": "12",
     "idade": "12",
     "login": "12",
     "senha": "12"
-  },
-  {
-    "nome": "12",
-    "idade": "12",
-    "login": "12",
-    "senha": "21"
   }
 ]
